@@ -7,8 +7,7 @@ Ask AI Selection — лёгкое расширение для Chrome, котор
 ---
 
 ## Features
-
-## Возможности
+Возможности
 
 **Ask AI Selection helps you work with selected text faster. Instead of manually copying text, opening an AI service, writing a prompt, and pasting the text, you can select text and choose an action from a small floating menu.**
 
@@ -26,14 +25,14 @@ Ask AI Selection помогает быстрее работать с выдел�
 - **Automatically insert prompts into Gemini when possible.**
 - **Open ChatGPT with a prepared prompt.**
 
-- Выделяйте текст на веб-странице и открывайте всплывающее AI-меню.
-- Используйте быстрые действия: Кастомный промпт, Перевести, Объяснить, Перефразировать.
-- Выбирайте целевую нейросеть: ChatGPT или Gemini.
-- Переключайте язык интерфейса между английским и русским.
-- Включайте и отключайте отдельные действия в меню.
-- Настраивайте собственный кастомный промпт.
-- Автоматически вставляйте промпт в Gemini, когда это возможно.
-- Открывайте ChatGPT с подготовленным промптом.
+  - Выделяйте текст на веб-странице и открывайте всплывающее AI-меню.
+  - Используйте быстрые действия: Кастомный промпт, Перевести, Объяснить, Перефразировать.
+  - Выбирайте целевую нейросеть: ChatGPT или Gemini.
+  - Переключайте язык интерфейса между английским и русским.
+  - Включайте и отключайте отдельные действия в меню.
+  - Настраивайте собственный кастомный промпт.
+  - Автоматически вставляйте промпт в Gemini, когда это возможно.
+  - Открывайте ChatGPT с подготовленным промптом.
 
 ---
 
@@ -123,8 +122,8 @@ ask-ai-extension/
 
 ---
 
-## Important notice
-Важное предупреждение
+# ❗❗❗ Important notice ❗❗❗
+❗❗❗ Важное предупреждение ❗❗❗
 
 **Before using the extension with ChatGPT or Gemini, make sure you are logged into your personal account in the selected AI service.**
 Перед использованием расширения с ChatGPT или Gemini убедитесь, что вы вошли в личный аккаунт в выбранной нейросети.
