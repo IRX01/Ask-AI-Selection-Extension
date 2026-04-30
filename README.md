@@ -42,7 +42,7 @@ Ask AI Selection помогает быстрее работать с выдел�
 ### Extension popup
 Popup расширения
 
-<img src="images/popup.png" alt="Extension popup" width="360">
+<img src="ask-ai-selection/images/popup.png" alt="Extension popup" width="360">
 
 **The popup lets you choose the interface language, AI model, visible menu actions, and custom prompt.**
 Popup позволяет выбрать язык интерфейса, AI-модель, видимые действия меню и кастомный промпт.
@@ -51,7 +51,7 @@ Popup позволяет выбрать язык интерфейса, AI-мод
 ### Floating menu
 Всплывающее меню
 
-<img src="images/floating-menu.png" alt="Floating menu" width="700">
+<img src="ask-ai-selection/images/floating-menu.png" alt="Floating menu" width="700">
 
 **After selecting text, the extension shows a floating menu with quick AI actions.**
 После выделения текста расширение показывает всплывающее меню с быстрыми AI-действиями.
