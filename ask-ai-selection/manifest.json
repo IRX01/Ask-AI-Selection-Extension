@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Ask AI Selection",
+  "version": "1.0",
+  "description": "Shows an AI menu near selected text.",
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://gemini.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+  "128": "icons/icon128.png"
+},
+"action": {
+  "default_popup": "popup.html",
+  "default_title": "Ask AI Selection",
+  "default_icon": {
+    "128": "icons/icon128.png"
+  }
+}
+}

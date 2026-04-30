@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ask AI Settings</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <header class="popup-header">
+      <div>
+        <h1 data-i18n="appTitle">Ask AI</h1>
+        <p data-i18n="appSubtitle">Настройки меню выделенного текста</p>
+      </div>
+
+      <div class="logo">AI</div>
+    </header>
+
+    <main class="popup-content">
+      <section class="setting-block">
+        <div class="setting-title">
+          <span data-i18n="languageTitle">Язык интерфейса</span>
+          <small data-i18n="languageDescription">Меняет названия кнопок и стандартные промпты</small>
+        </div>
+
+        <div class="option-group">
+          <label class="option-card">
+            <input type="radio" name="language" value="ru" checked />
+            <span data-i18n="languageRu">Русский</span>
+          </label>
+
+          <label class="option-card">
+            <input type="radio" name="language" value="en" />
+            <span data-i18n="languageEn">English</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="setting-block">
+        <div class="setting-title">
+          <span data-i18n="modelTitle">Модель</span>
+          <small data-i18n="modelDescription">Куда открывать готовый промпт</small>
+        </div>
+
+        <div class="option-group">
+          <label class="option-card">
+            <input type="radio" name="model" value="chatgpt" checked />
+            <span>ChatGPT</span>
+          </label>
+
+          <label class="option-card">
+            <input type="radio" name="model" value="gemini" />
+            <span>Gemini</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="setting-block">
+        <div class="setting-title">
+          <span data-i18n="actionsTitle">Кнопки в меню</span>
+          <small data-i18n="actionsDescription">Выбери, какие действия показывать после выделения текста</small>
+        </div>
+
+        <div class="checkbox-list">
+          <label class="checkbox-row">
+            <input type="checkbox" name="action" value="custom" checked />
+            <span data-i18n="actionCustom">Кастомный промпт</span>
+          </label>
+
+          <label class="checkbox-row">
+            <input type="checkbox" name="action" value="translate" checked />
+            <span data-i18n="actionTranslate">Перевести</span>
+          </label>
+
+          <label class="checkbox-row">
+            <input type="checkbox" name="action" value="explain" checked />
+            <span data-i18n="actionExplain">Объяснить</span>
+          </label>
+
+          <label class="checkbox-row">
+            <input type="checkbox" name="action" value="rewrite" checked />
+            <span data-i18n="actionRewrite">Перефразировать</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="setting-block">
+        <div class="setting-title">
+          <span data-i18n="customPromptTitle">Кастомный промпт</span>
+          <small data-i18n="customPromptDescription">Будет использоваться для кнопки “Кастомный промпт”</small>
+        </div>
+
+        <textarea
+          id="customPrompt"
+          class="custom-prompt"
+          data-i18n-placeholder="customPromptPlaceholder"
+          placeholder="Например: объясни этот текст как для начинающего программиста"
+        >Объясни этот текст простыми словами.</textarea>
+      </section>
+
+      <section class="preview-block">
+        <div class="preview-title" data-i18n="previewTitle">Текущие настройки</div>
+        <div id="settingsPreview" class="settings-preview">
+          Русский · ChatGPT · включено кнопок: 4
+        </div>
+      </section>
+    </main>
+
+    <footer class="popup-footer">
+      <span id="statusText">Пока это только внешний вид</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
